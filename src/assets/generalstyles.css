@@ -1,0 +1,42 @@
+.header-box {
+	width: 100%;
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: lightgrey;
+	padding: 20px;
+}
+
+.table-row {
+  display: flex;          display: -webkit-flex;
+  flex-direction: row;    -webkit-flex-direction: row;
+  flex-wrap: no-wrap;     -webkit-flex-wrap: no-wrap;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 2px solid #e0e0e0;
+  border-collapse: collapse;
+  padding-top: 5px;
+}
+
+.remove {
+  color: white;
+  background: red;
+  margin-left: 5px;
+}
+
+.table-row.header {
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.add-item {
+  margin-top: 10px;
+  width: 150px;
+  height: 30px;
+  color: black;
+  background-color: lightgreen;
+}
